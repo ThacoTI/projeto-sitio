@@ -16,7 +16,7 @@ header{
 }
 header h1{
     text-align: center;
-    color: #283302;
+    color: #252617;
     font-size: 3em;
     font-weight: bold;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
@@ -34,14 +34,14 @@ header > nav{
 }
 header a{
     text-decoration: none;
-    color: #283302;
+    color: #252617;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin:    10px;
 }
 nav a:hover{
-    background-color: #bfa93b2d;
-    color: #ccd3b1;
+    background-color: #C9D955;
+    color: #3E5915;
     
 }
 img{
@@ -50,8 +50,11 @@ img{
     
 }
 main >h1{
+    background-image: linear-gradient(to top, #C9D955, #8EA637);
     text-align: center;
-    font-weight: bold;
+    color: #181f01b0;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
 aside h1{
     text-align: center;
@@ -77,7 +80,7 @@ div#fora{
 div#dentro{
     height: 400px;
     width: 500px;
-    background-color: blueviolet;
+    
 
 }
 div#fora{
@@ -87,6 +90,23 @@ div#dentro{
     position: absolute;
     left: 60%;
     top: 10px;
+}
+div#texto{
+    height: 660px;
+    width: 660px;
+    margin: 10px;
+    
+    
+}
+div#texto >h2{
+    text-align: center;
+}
+div#texto{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    
+    
 }
 
 div.d1{
@@ -102,3 +122,45 @@ div#a{
 div#img{
     margin-left: 400px;
 }
+div#tela{
+    height: 150vh;
+    width: 100%;
+    display: inline-block;
+    background-color: #8EA637;
+    
+}
+div#foto{
+    height: 400px;
+    width: 500px;
+}
+div#txt{
+    height: 660px;
+    width: 660px;
+    margin: 10px;
+}
+
+div#tela{
+    position: relative;
+}
+div#foto{
+    position: absolute;
+    right: 60%;
+    top: 10px;
+}
+div#txt{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    left: 60%;
+    top: 10px;
+} 
+div#txt{
+    background-color: #548C1C;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.014);
+    
+}
+div#txt > h1{
+    margin: 10px;
+}
+
