@@ -1,0 +1,104 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+header{
+    background-image: url('img/camp-gd.png');
+    /*background-image: linear-gradient(to top, #6E8C03, #465902);*/
+    padding: 20px;
+    height: 200px;
+    
+}
+header h1{
+    text-align: center;
+    color: #283302;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
+    padding-top: 10px ;
+    padding-bottom: 5px;
+    
+}
+header p{
+    text-align: center;
+    color: #283302;
+    font-size: 1.5em;
+}
+header > nav{
+    margin-top: 80px;
+}
+header a{
+    text-decoration: none;
+    color: #283302;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin:    10px;
+}
+nav a:hover{
+    background-color: #bfa93b2d;
+    color: #ccd3b1;
+    
+}
+img{
+    width: 100%;
+
+    
+}
+main >h1{
+    text-align: center;
+    font-weight: bold;
+}
+aside h1{
+    text-align: center;
+    height: 30px;
+    border-inline: 50px;
+}
+
+    
+
+article{
+    width: 45%;
+    height: 50%;
+    padding-bottom: 50px;
+}
+div#fora{
+    height: 150vh;
+    width: 98%;
+    display: inline-block;
+    background-color: white;
+    
+   
+}
+div#dentro{
+    height: 400px;
+    width: 500px;
+    background-color: blueviolet;
+
+}
+div#fora{
+    position: relative;
+}
+div#dentro{
+    position: absolute;
+    left: 60%;
+    top: 10px;
+}
+
+div.d1{
+    display: inline-block;
+     background-color: #6E8C03;
+     width: 300px;
+     height: 300px;
+}
+div#a{
+   
+    margin-left: 50%;
+}
+div#img{
+    margin-left: 400px;
+}
