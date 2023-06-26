@@ -6,8 +6,8 @@
 }
 
 body{
+    
     margin: auto;
-    width: 100%;
 }
 header{
     background-image: url('img/camp-gd.png');
@@ -15,6 +15,7 @@ header{
     padding: 20px;
     margin-bottom: 50px;
     height: 200px;
+    margin: auto;
     
     
     
@@ -52,7 +53,12 @@ nav a:hover{
 }
 img{
     width: 100%;
+    border-radius: 10px;
+    margin: auto;
 
+    
+}
+main{
     
 }
 main >h1{
@@ -77,21 +83,22 @@ article{
     padding-bottom: 50px;
 }
 div#fora{
-    height: 150vh;
-    width: 98%;
-    display: inline-block;
+    display: flex;
+    
+    
+    height: 150vh; /* Define a altura como 100% da altura da tela */
+    
+    /*height: 150vh;
+    width: 98%;*/
     background-color: white;
     
    
 }
 div#dentro{
-    height: 660px;
-    width: 500px;
-    
-    
-    
+    position: relative;
 
 }
+
 div#fora{
     position: relative;
 }
@@ -107,6 +114,7 @@ div#dentro{
     
 }
 div#texto{
+    
     height: 660px;
     width: 660px;
     margin: 10px;
@@ -118,7 +126,7 @@ div#texto >h2{
     padding: 20px;
 }
 div#texto{
-    position: absolute;
+    position: relative;
     font-family: 'Poppins';
     text-align: justify;
     
@@ -162,7 +170,7 @@ div#txt{
 }
 
 div#tela{
-    position: relative;
+   position: relative;
 }
 div#foto{
     position: absolute;
