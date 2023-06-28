@@ -7,7 +7,7 @@
 
 body{
     
-    margin: auto;
+    
 }
 header{
     background-image: url('img/camp-gd.png');
@@ -83,10 +83,10 @@ article{
     padding-bottom: 50px;
 }
 div#fora{
-    display: flex;
+    position: relative;
     
     
-    height: 150vh; /* Define a altura como 100% da altura da tela */
+    height: 130vh; /* Define a altura como 100% da altura da tela */
     
     /*height: 150vh;
     width: 98%;*/
@@ -94,30 +94,34 @@ div#fora{
     
    
 }
-div#dentro{
-    position: relative;
 
-}
-
-div#fora{
-    position: relative;
-}
 div#dentro{
+    background-image: url('img/picina-pq.png');
     position: absolute;
     box-shadow: -10px 2px 5px rgba(0, 0, 0, 0.185);
-    
-    left: 60%;
-    top: 10px;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(100%, -66%);
 }
 div#dentro{
     border-radius: 10px;
     
 }
 div#texto{
-    
-    height: 660px;
-    width: 660px;
-    margin: 10px;
+    position: absolute;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.096);
+    text-indent: 25px;
+    min-width: 600px;
+    max-width: 800px;
+    /*height: 700px;
+    width: 500px;*/
+    margin: 39px;
     
     
 }
@@ -126,7 +130,7 @@ div#texto >h2{
     padding: 20px;
 }
 div#texto{
-    position: relative;
+    
     font-family: 'Poppins';
     text-align: justify;
     
