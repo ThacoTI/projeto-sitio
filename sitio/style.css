@@ -10,8 +10,9 @@ body{
     
 }
 header{
-    background-image: url('img/camp-gd.png');
-    /*background-image: linear-gradient(to top, #6E8C03, #465902);*/
+    
+    
+    background-image: linear-gradient(to top, #7E8C4A, #4B592D);
     padding: 20px;
     margin-bottom: 50px;
     height: 200px;
@@ -22,12 +23,12 @@ header{
 }
 header h1{
     text-align: center;
-    color: #252617;
-    font-size: 3em;
-    font-weight: bold;
+    color: white;
+    font-size: 4vw;
+    font-weight: bolder;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445);
-    padding-top: 10px ;
-    padding-bottom: 5px;
+    padding-top: 30px ;
+    padding-bottom: 98px;
     
 }
 header p{
@@ -35,13 +36,13 @@ header p{
     color: #283302;
     font-size: 1.5em;
 }
-header > nav{
-    margin-top: 98px;
+header > nav{ 
+    
    
 }
 header a{
     text-decoration: none;
-    color: #252617;
+    color: #1C261E;
     font-weight: bold;
     font-size: 1.5em;
     margin:    10px;
@@ -62,13 +63,14 @@ main{
     
 }
 main >h1{
-    background-image: linear-gradient(to top, #C9D955, #8EA637);
-    text-align: center;
-    color: #181f01b0;
+    
+    margin-left: 20px;
+    padding-top: 15px;
     font-weight: bolder;
     font-family: 'Poppins';
-    padding-bottom: 20px;
+    font-size: 5vw;
 }
+
 aside h1{
     text-align: center;
     height: 30px;
@@ -99,25 +101,35 @@ article{
 div.container{
     width: 100%;
     height: auto;
-    
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-flow: wrap;
+    background-color: aliceblue;
+    
 }
 div.box{
     
         min-width: 300px;
         max-width: 800px;
         width: 45%;
-        height: 400px;
-        background-color: blue;
+        height: 500px;
+        
         margin: 30px;
         box-sizing: border-box;
         font-size: 20px;
+        border-radius: 10px;
     
 }
-div#t1{
+div#t1 >h2{
+    padding-top: 5px;
+    text-align: center;
+}
+div#t1 >p{
+    text-align: justify;
+    line-height: 1.5em;
+    padding-top: 10px;
 
 }
 div#t2{
@@ -138,6 +150,16 @@ div#dentro{
     top: 50%;
 
     transform: translate(100%, -66%);
+}
+div#t4{
+    background-image: url('img/camp-pq.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div#t5{
+    padding: 20px;
+    display: inline-block;
+    background-color: #548C1C;
 }
 div#dentro{
     border-radius: 10px;
