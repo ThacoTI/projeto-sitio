@@ -82,19 +82,50 @@ article{
     height: 50%;
     padding-bottom: 50px;
 }
-div#fora{
+/*div#fora{
     position: relative;
     
     
     height: 130vh; /* Define a altura como 100% da altura da tela */
     
     /*height: 150vh;
-    width: 98%;*/
+    width: 98%;
     background-color: white;
+
+    
     
    
+}*/
+div.container{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
 }
+div.box{
+    
+        min-width: 300px;
+        max-width: 800px;
+        width: 45%;
+        height: 400px;
+        background-color: blue;
+        margin: 30px;
+        box-sizing: border-box;
+        font-size: 20px;
+    
+}
+div#t1{
 
+}
+div#t2{
+    background-image: url('img/jardi-pq.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 div#dentro{
     background-image: url('img/picina-pq.png');
     position: absolute;
