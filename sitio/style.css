@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -17,6 +19,8 @@ header{
     margin-bottom: 50px;
     height: 200px;
     margin: auto;
+    border: 5px solid #35648C;
+   
     
     
     
@@ -36,10 +40,7 @@ header p{
     color: #283302;
     font-size: 1.5em;
 }
-nav#logo >a{ 
-    
-   
-}
+
 header a{
     text-decoration: none;
     color: #3A4010;
@@ -53,32 +54,28 @@ nav a:hover{
     
 }
 
-main{
-    
-}
+
 main >h1{
-    margin: auto;
-    text-align: center;
+    height: 100px;
+    
+    
+    
     font-weight: bolder;
     padding-bottom: 5px;
+    padding-top: 5px;
     font-size: 3em;
-    background-color: #acd7f2c0;
+    background-color: #ACD7F2;
+    box-shadow: -5px 5px  9px #0000003a ;
+    color: white;
+    border-radius: 10px;
     
 }
 
-aside h1{
-    text-align: center;
-    height: 30px;
-    border-inline: 50px;
-}
+
 
     
 
-article{
-    width: 45%;
-    height: 50%;
-    padding-bottom: 50px;
-}
+
 /*div#fora{
     position: relative;
     
@@ -132,8 +129,9 @@ div#t2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    box-shadow: -5px -5px  7px #0000003a;
 }
-div#dentro{
+/*div#dentro{
     background-image: url('img/picina-pq.png');
     position: absolute;
     box-shadow: -10px 2px 5px rgba(0, 0, 0, 0.185);
@@ -145,22 +143,24 @@ div#dentro{
     top: 50%;
 
     transform: translate(100%, -66%);
-}
+}*/
 div#t4{
     background-image: url('img/camp-pq.png');
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: -5px -5px  7px #0000003a ;
 }
 div#t5{
     padding: 20px;
     display: inline-block;
-    background-color: #707317d7;
+    background-color: #365902de;
+    box-shadow: -5px -5px  7px #0000003a ;
 }
-div#dentro{
-    border-radius: 10px;
-    
+
+div#t5 >h1{
+    text-align: center;
 }
-div#texto{
+/*div#texto{
     position: absolute;
     background-size: 100% 100%;
     background-color: rgba(0, 0, 0, 0.096);
@@ -168,29 +168,19 @@ div#texto{
     min-width: 600px;
     max-width: 800px;
     /*height: 700px;
-    width: 500px;*/
+    width: 500px;
     margin: 39px;
     
     
-}
-div#texto >h2{
-    text-align: center;
-    padding: 20px;
-}
-div#texto{
-    
-    font-family: 'Poppins';
-    text-align: justify;
-    
-    
-}
+}*/
+
 strong{
     color: #252617;
     
 }
 
 
-div#tela{
+/*div#tela{
     position: relative;
     height: 130vh;
     background-color: #8ea6379d;
@@ -239,10 +229,10 @@ div#txt >h2{
 }
 div#txt >p{
     margin: 10px;
-}
+}*/
 
 footer{
-    background-color: #ACD7F2;
+    background-image: linear-gradient(to bottom, #35648C, #35648C, #1E3859);
     height: 50px;
     padding: 10px;
     text-align: center;
